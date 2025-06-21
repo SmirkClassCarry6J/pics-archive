@@ -17,7 +17,7 @@ fetch("./datasets/dataset-discord.json")
 
 	data.groups.forEach(group => {
 		const h4 = document.createElement("h4");
-		h4.textContent = "." + group.name || "Untitled";
+		h4.textContent = group.name || "Untitled";
 		target.appendChild(h4);
 		const ulName = document.createElement("ul");
 		target.appendChild(ulName);
