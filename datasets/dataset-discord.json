@@ -1,18 +1,48 @@
 {
-	"Sets":[
+	"groups":[
 		{
-			"name":"",
-			"links": [
-
+			"name": "01",
+			"sets": [
+				{
+					"name":"Ai_Mizushima",
+					"links": [
+						"https://cdn.discordapp.com/attachments/1346220630206447737/1346231295965139067/Ai_Mizushima.zip?ex=68572298&is=6855d118&hm=ad3fd10909240af40bc20297dcafd193089a8dea7e60ab4be2de539110412de6&"
+					]
+				},
+				{
+					"name":"Ai_Nishida",
+					"links": [
+						"https://cdn.discordapp.com/attachments/1346220630206447737/1346232542029938749/Ai_Nishida.zip.part_00?ex=685723c1&is=6855d241&hm=f848a9dc1f426a250f1795a4638b7975033afbc395e0c36bd6c5b8063f479197&",
+						"https://cdn.discordapp.com/attachments/1346220630206447737/1346232542365487285/Ai_Nishida.zip.part_01?ex=685723c1&is=6855d241&hm=668d518159ab2ad5fc0b33d5ecdb3534a6cbef879fa8c42d2d5606a98c3d5693&",
+						"https://cdn.discordapp.com/attachments/1346220630206447737/1346232542717542471/Ai_Nishida.zip.part_02?ex=685723c1&is=6855d241&hm=4a13d3b58cfb5c7af9725700a536c3bd898c0bbab1fb74ae7a7caa1b742de1a4&",
+						"https://cdn.discordapp.com/attachments/1346220630206447737/1346232543321788508/Ai_Nishida.zip.part_03?ex=685723c2&is=6855d242&hm=a6bb1e9e8095c33a46b418a28d4786601584c61a504f3bcb57d8a45cc60cd6af&"
+					]
+				},
+				{
+					"name": "",
+					"links": [
+						""
+					]
+				},
+				{
+					"name": "",
+					"links": [
+						""
+					]
+				}
 			]
 		},
 		{
-			"name":"Discord",
-			"links": [
-				"https://discord.gg/8b2a3c5",
-				"https://discord.gg/4f7d9e2",
-				"https://discord.gg/1a2b3c4",
-				"https://discord.gg/5d6e7f8"
+			"name": "02",
+			"sets": [
+				{
+					"name": "Aaqua_otsuki",
+					"links": [
+						"https://cdn.discordapp.com/attachments/1347007694908821547/1347007861687058452/Aaqua_otsuki.tar.xz.part_01?ex=685752d4&is=68560154&hm=5371dcc8727144c4001ab2a61c1f6afe7cb6bda4ddc8d0075757e72cdd2ec70e&",
+						"https://cdn.discordapp.com/attachments/1347007694908821547/1347007862043447357/Aaqua_otsuki.tar.xz.part_02?ex=685752d4&is=68560154&hm=a0a091cb59bc6e2932114de326262dfe61b14ff45fb0b94d772adf99cebdf954&",
+						"https://cdn.discordapp.com/attachments/1347007694908821547/1347007862450421843/Aaqua_otsuki.tar.xz.part_00?ex=685752d4&is=68560154&hm=629b9ae2368298fe73631b982ae4bc9bc5bd1c6bdeae737322beb4d59f7997cb&"
+					]
+				}
 			]
 		}
 	]
