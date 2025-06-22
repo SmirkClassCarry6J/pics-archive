@@ -1,13 +1,15 @@
 let fileListData = {};  // Will hold the file list
 
-async function fetchFileList() {
-    try {
-        const response = await fetch("./datasets/file-list.json");
-        fileListData = await response.json();
+function fetchFileList() {
+    fetch("./datasets/file-list.json")
+    .then(res => res.json())
+    .then(data => {
+        fileListData = data;
         loadFiles("");  // Load root directory
-    } catch (error) {
+    })
+    .catch (error => {
         console.error("Failed to load file list:", error);
-    }
+    });
 }
 
 function loadFiles(path) {
