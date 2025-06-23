@@ -1,0 +1,18 @@
+{
+  "name": "smirkclasscarry6j-pics-archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-smirkclasscarry6j:SmirkClassCarry6J/pics-archive.git"
+  },
+  "author": "SmirkClassCarry6J",
+  "license": "MIT",
+  "dependencies": {
+    "netlify-cli": "^22.1.3"
+  }
+}
