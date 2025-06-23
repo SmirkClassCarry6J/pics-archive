@@ -1,6 +1,6 @@
 // github-release-viewer.js
-const owner = "SmirkClassCarry6J";   // ← change to my GitHub username
-const repo = "pics-archive";        // ← change to my repository name
+const owner = "SmirkClassCarry6J";
+const repo = "pics-archive";
 const target = document.querySelector(".github");
 
 fetch(`https://api.github.com/repos/${owner}/${repo}/releases`)
