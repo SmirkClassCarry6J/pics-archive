@@ -115,7 +115,11 @@
               "type": "folder",
               "items": [
                 {
-                  "name": "Chihiro_Akiha.zip",
+                  "name": "Chihiro_Akiha.zip.part_000",
+                  "type": "file"
+                },
+                {
+                  "name": "Chihiro_Akiha.zip.part_001",
                   "type": "file"
                 }
               ]
