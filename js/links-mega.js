@@ -10,9 +10,11 @@ fetch("./datasets/dataset-mega.json")
 	  return;
 	}
 
+	/*
 	console.log(data);
 	console.log(Array.isArray(data.links));
 	console.log(data.links[0])
+	*/
 
 	const ul = document.createElement("ul");
 	target.appendChild(ul);

@@ -12,8 +12,8 @@ fetch("./datasets/dataset-discord.json")
 	  	return;
 	}
 
-	console.log(data);
-	console.log(Array.isArray(data.groups));
+	/* console.log(data); */
+	/* console.log(Array.isArray(data.groups)); */
 
 	data.groups.forEach(group => {
 		const h4 = document.createElement("h4");

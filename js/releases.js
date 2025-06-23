@@ -9,19 +9,21 @@ fetch(`https://api.github.com/repos/${owner}/${repo}/releases`)
     return res.json();
   })
   .then(data => {
+	/*
 	console.log(data);
 	console.log(Array.isArray(data));
+	*/
     const allAssets = data.flatMap(release => release.assets) || [];
     if (allAssets.length === 0) {
       target.innerHTML = "<li>No release assets found.</li>";
       return;
     }
 
-
+	/*
 	data.forEach(release => {
 	console.log("Release:", release.name);
 	});
-
+	*/
 
 	data.forEach(release => {
 		const h4 = document.createElement("h4");

@@ -1,6 +1,6 @@
 fetch("/.netlify/functions/netlify-hello")
   .then(res => res.json())
-  .then(data => console.log(data));
+  .then(data => console.log(data.message));
 
 fetch("https://api.ipify.org?format=json")
   .then(res => res.json())
@@ -14,7 +14,7 @@ fetch("https://api.ipify.org?format=json")
 	  .then(res => res.json())
 	  .catch(() => ({ geo: "unknown"}))
 	  .then(geoData => {
-		  console.log(geoData);
+		  /* console.log(geoData); */
 		  fetch("/.netlify/functions/netlify-visit-logger", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
